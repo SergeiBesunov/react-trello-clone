@@ -1,0 +1,42 @@
+.comment {
+  width: 100%;
+  font-size: 13px;
+  margin-bottom: 15px;
+
+  &__user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+    &-avatar {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 10px;
+    }
+
+    &-name {
+      font-weight: 600;
+    }
+  }
+
+  &__text {
+    display: inline-block;
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+  }
+
+  &__block-control {
+    display: flex;
+    padding-left: 10px;
+  }
+
+  &__btn {
+    color: rgb(0, 0, 0);
+    margin-right: 8px;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,54 @@
+.column-wrapper {
+  width: 25%;
+  padding: 0px 8px;
+  flex-shrink: 0;
+}
+
+.column {
+  width: 100%;
+  color: rgb(51, 51, 51);
+  background-color: #e2e4e6;
+  border-radius: 3px;
+  overflow: hidden;
+
+  &__header-inner {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .column__name {
+      font-weight: 700;
+      max-width: 100%;
+      white-space: wrap;
+      overflow: auto;
+    }
+
+    .column__edit-name {
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  }
+
+  &__cards {
+    padding: 5px 15px;
+  }
+
+  &__footer {
+    padding: 15px;
+  }
+
+  &__add-card {
+    text-align: left;
+    width: 100%;
+    border-radius: 2px;
+    font-weight: 600;
+    color: rgb(104, 104, 104);
+    padding: 6px;
+    transition: all 0.2s ease 0s;
+    &:hover {
+      background-color: #afafaf;
+    }
+  }
+}

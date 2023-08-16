@@ -1,0 +1,36 @@
+.login {
+  width: 30vw;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  color: rgb(32, 32, 32);
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  &__form-textield {
+    font-size: inherit;
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 3px;
+    padding: 6px;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  &__form-btn {
+    background-color: rgb(40, 90, 255);
+    display: block;
+    padding: 6px;
+    border-radius: 3px;
+    transition: all 0.2s ease 0s;
+    color: white;
+
+    &:hover {
+      background-color: rgb(19, 74, 255);
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import './reset';
+@import './variables';
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+  padding: 20px 0px 0px 0px;
+  overflow-x: auto;
+}
+
+.container {
+  padding: 0px 5px;
+}
+
+.board {
+  display: flex;
+}

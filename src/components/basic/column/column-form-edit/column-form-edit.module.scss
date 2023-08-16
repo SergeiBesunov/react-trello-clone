@@ -1,0 +1,27 @@
+.main {
+  padding: 5px;
+  input {
+    border: 2px solid rgb(103, 103, 255);
+    width: 100%;
+    padding: 8px 6px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+  }
+}
+
+.control {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 6px 8px;
+  background-color: #54a43a;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.2s ease 0s;
+  margin-right: 8px;
+  &:hover {
+    background-color: #4f9636;
+  }
+}

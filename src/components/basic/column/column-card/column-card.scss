@@ -1,0 +1,32 @@
+.column__card {
+  width: 100%;
+  font-weight: 600;
+  background-color: white;
+  padding: 6px 6px 10px 6px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(245, 245, 245);
+  }
+
+  &-name {
+    margin: 0px 0px 6px 0px;
+  }
+
+  &-info {
+    display: flex;
+  }
+
+  &-info-comments {
+    display: flex;
+    color: #808080;
+    font-size: 12px;
+
+    img {
+      margin-right: 5px;
+    }
+  }
+}

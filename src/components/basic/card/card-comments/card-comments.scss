@@ -1,0 +1,23 @@
+.add-comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+
+  &__avatar {
+    width: 30px;
+    height: 30px;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.card__comments-container {
+  max-height: 250px;
+  overflow-y: scroll;
+}

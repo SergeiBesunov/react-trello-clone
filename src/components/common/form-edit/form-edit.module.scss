@@ -1,0 +1,30 @@
+.main {
+  width: 100%;
+
+  textarea {
+    border: 1px solid rgb(202, 202, 202);
+    width: 100%;
+    padding: 8px 6px;
+    border-radius: 3px;
+    resize: none;
+    margin-bottom: 5px;
+  }
+}
+
+.control {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 4px 6px;
+  background-color: #cbc9d1;
+  color: rgb(51, 51, 51);
+  border-radius: 3px;
+  transition: all 0.2s ease 0s;
+  margin-right: 8px;
+  &:hover {
+    background-color: #b5b3bb;
+  }
+}
